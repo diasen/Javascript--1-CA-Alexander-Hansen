@@ -1,0 +1,103 @@
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: white;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.card {
+	width: 300px;
+	height: 500px;
+	border: solid 2px black;
+	margin: 10px;
+	position: relative;
+	border-radius: 5px;
+}
+
+.card img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	width: 80%;
+	height: 50%;
+}
+
+.card__body {
+	padding: 10px;
+	height: 140px;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+a {
+	display: block;
+	width: 92%;
+	background-color: #e74433;
+	padding: 15px 10px;
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	bottom: 1px;
+	left: 2px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.danger {
+	background-color: rgb(255 124 124);
+	color: red;
+	border: solid 1px red;
+	padding: 20px;
+	transition: 2s;
+}
+
+.success {
+	background-color: rgb(148, 247, 139);
+	color: darkgreen;
+	border: solid 1px darkgreen;
+	padding: 20px;
+	transition: 2s;
+}
+
+.warning {
+	background-color: rgb(255, 200, 80);
+	color: orange;
+	border: solid 1px orange;
+	padding: 20px;
+	transition: 2s;
+}
+
+.information {
+	background-color: rgb(108, 238, 255);
+	color: blue;
+	border: solid 1px blue;
+	padding: 20px;
+	transition: 2s;
+}
+
+.hide {
+	display: none;
+}
+
+.loading {
+	margin: 200px auto;
+	width: 800px;
+}
+
+.pokeballImg {
+	width: 100px;
+	height: 200px;
+}
