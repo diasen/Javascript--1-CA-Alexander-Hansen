@@ -1,0 +1,92 @@
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #ececec;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+}
+
+.form_div {
+	background-color: #facc33;
+	padding: 20px;
+	width: 300px;
+	border-radius: 5px;
+}
+
+input[type='text'] {
+	width: 100%;
+	height: 30px;
+	border: solid 1px black;
+	outline: none;
+}
+
+label {
+	margin-top: 10px;
+	display: block;
+}
+
+p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.error {
+	color: red;
+	display: none;
+}
+
+button {
+	margin-top: 30px;
+	background-color: lightgreen;
+	width: 100%;
+	padding: 10px;
+	border: none;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.logo_div {
+	width: 100%;
+	text-align: center;
+	border: black 1px solid;
+}
+
+.logo {
+	width: 200px;
+	height: 200px;
+}
+
+.loginBtn {
+	width: 150px;
+	height: 20px;
+	background-color: #395faa;
+	left: 1200px;
+	top: 10px;
+	position: absolute;
+	border-radius: 5px;
+	border: black 1px solid;
+}
+.homeBtn {
+	width: 150px;
+	height: 20px;
+	background-color: #395faa;
+	left: 900px;
+	top: 10px;
+	position: absolute;
+	border-radius: 5px;
+	border: black 1px solid;
+}
+
+li {
+	display: inline-block;
+}

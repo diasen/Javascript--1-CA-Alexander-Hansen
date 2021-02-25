@@ -42,3 +42,14 @@ main {
 	position: absolute;
 	border-radius: 5px;
 }
+
+.logo_div {
+	width: 100%;
+	text-align: center;
+	border: black 1px solid;
+}
+
+.logo {
+	width: 200px;
+	height: 200px;
+}

@@ -21,12 +21,14 @@ async function getPokemon() {
 		document.querySelector(
 			'h1'
 		).innerHTML = `Pokemon: ${jsonResults.data.name}`;
+
 		document.querySelector(
 			'p'
 		).innerHTML = `Artist: ${jsonResults.data.artist}`;
+
 		document.querySelector(
 			'.img'
-		).style.backgroundImage = `url('${jsonResults.data.images.small}')`;
+		).innerHTML = `<img class="pokemon__img" src="${jsonResults.data.images.small}"/>`;
 	} catch (error) {
 		document.querySelector('.alert').innerHTML += showAlertTouser(
 			error,

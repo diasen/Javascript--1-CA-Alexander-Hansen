@@ -1,6 +1,7 @@
 body {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	background-color: white;
+	margin: 0;
 }
 
 main {
@@ -100,4 +101,40 @@ a {
 .pokeballImg {
 	width: 100px;
 	height: 200px;
+}
+
+.logo_div {
+	width: 100%;
+	text-align: center;
+	border: black 1px solid;
+}
+
+.logo {
+	width: 200px;
+	height: 200px;
+}
+
+.loginBtn {
+	width: 150px;
+	height: 20px;
+	background-color: #395faa;
+	left: 1200px;
+	top: 10px;
+	position: absolute;
+	border-radius: 5px;
+	border: black 1px solid;
+}
+.homeBtn {
+	width: 150px;
+	height: 20px;
+	background-color: #395faa;
+	left: 900px;
+	top: 10px;
+	position: absolute;
+	border-radius: 5px;
+	border: black 1px solid;
+}
+
+li {
+	display: inline-block;
 }
