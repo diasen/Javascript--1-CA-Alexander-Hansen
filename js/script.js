@@ -1,5 +1,5 @@
 document.querySelector('.loading').innerHTML = ` <img
-src="https://wpamelia.com/wp-content/uploads/2018/11/ezgif-2-6d0b072c3d3f.gif"
+src="http://guess-that-pokemon.herokuapp.com/assets/images/loading.gif"
 />`;
 
 async function getPokemons() {

@@ -33,23 +33,41 @@ main {
 	margin: auto auto;
 }
 
-.returnBtn {
-	width: 200px;
-	height: 30px;
-	background-color: #e74433;
-	left: 1200px;
-	top: 10px;
-	position: absolute;
-	border-radius: 5px;
-}
-
 .logo_div {
 	width: 100%;
 	text-align: center;
-	border: black 1px solid;
 }
 
 .logo {
 	width: 200px;
-	height: 200px;
+	height: 150px;
+}
+
+.contactBtn,
+.homeBtn {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+li {
+	display: inline-block;
+}
+
+.nav {
+	width: 95%;
+	height: 0px;
+	text-align: right;
+}
+
+a.loginBtn {
+	width: 100%;
+	bottom: 0px;
+}
+
+a.homeBtn {
+	width: 100%;
+	bottom: 0px;
 }

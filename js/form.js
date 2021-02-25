@@ -1,6 +1,7 @@
-const nameError = document.querySelector('.name');
-const subjectError = document.querySelector('.subject');
+const nameError = document.querySelector('.nameError');
+const subjectError = document.querySelector('.subjectError');
 const emailError = document.querySelector('.emailError');
+const adressError = document.querySelector('.adressError');
 const submit = document.querySelector('#submit');
 
 submit.onclick = function (event) {
@@ -12,27 +13,19 @@ submit.onclick = function (event) {
 	const adress = document.querySelector('#adress').value.trim();
 
 	if (testLen(name, 1)) {
-		firstNameError.classList.add('hide');
-		firstNameError.classList.remove('show');
+		nameError.classList.add('hide');
+		nameError.classList.remove('show');
 	} else {
-		firstNameError.classList.add('show');
-		firstNameError.classList.remove('hide');
+		nameError.classList.add('show');
+		nameError.classList.remove('hide');
 	}
 
 	if (subject.length >= 10) {
-		lastNameError.classList.add('hide');
-		lastNameError.classList.remove('show');
+		subjectError.classList.add('hide');
+		subjectError.classList.remove('show');
 	} else {
-		lastNameError.classList.add('show');
-		lastNameError.classList.remove('hide');
-	}
-
-	if (validateEmail(email)) {
-		emailError.classList.add('hide');
-		emailError.classList.remove('show');
-	} else {
-		emailError.classList.add('show');
-		emailError.classList.remove('hide');
+		subjectError.classList.add('show');
+		subjectError.classList.remove('hide');
 	}
 
 	if (validateEmail(email)) {
@@ -44,11 +37,11 @@ submit.onclick = function (event) {
 	}
 
 	if (adress.length >= 25) {
-		emailError.classList.add('hide');
-		emailError.classList.remove('show');
+		adressError.classList.add('hide');
+		adressError.classList.remove('show');
 	} else {
-		emailError.classList.add('show');
-		emailError.classList.remove('hide');
+		adressError.classList.add('show');
+		adressError.classList.remove('hide');
 	}
 };
 

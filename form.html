@@ -8,31 +8,33 @@
 		<link rel="stylesheet" href="css/form.css" />
 	</head>
 	<body>
+		<header>
+			<nav class="nav">
+				<ul>
+					<li><a class="homeBtn" href="/index.html">Home</a></li>
+					<li><a class="contactBtn" href="/form.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="logo_div">
+				<img
+					class="logo"
+					src="https://cdn.worldvectorlogo.com/logos/pokemon-23.svg"
+					alt=""
+				/>
+			</div>
+		</header>
+		<div class="loading"></div>
+		<div class="alert"></div>
 		<main>
-			<header>
-				<div class="logo_div">
-					<img
-						class="logo"
-						src="https://cdn.worldvectorlogo.com/logos/pokemon-23.svg"
-						alt=""
-					/>
-				</div>
-				<nav>
-					<ul>
-						<li><a class="homeBtn" href="/index.html">Home</a></li>
-						<li><a class="loginBtn" href="/form.html">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
 			<div class="form_div">
 				<form>
 					<label for="name">Name</label>
 					<input type="text" name="name" id="name" />
-					<p class="error name">Please enter your name</p>
+					<p class="error nameError">Please enter your name</p>
 
 					<label for="subject">Subject</label>
 					<input type="text" name="subject" id="subject" />
-					<p class="error subject">Please enter subject</p>
+					<p class="error subjectError">Please enter subject</p>
 
 					<label for="email">Email</label>
 					<input type="text" name="email" id="email" />
@@ -40,7 +42,7 @@
 
 					<label for="adress">Adress</label>
 					<input type="text" name="adress" id="adress" />
-					<p class="error adress">Please enter a valid adress</p>
+					<p class="error adressError">Please enter a valid adress</p>
 
 					<button id="submit">Submit</button>
 				</form>

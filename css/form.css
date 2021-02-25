@@ -41,10 +41,11 @@ p {
 
 button {
 	margin-top: 30px;
-	background-color: lightgreen;
+	background-color: #306cb4;
 	width: 100%;
 	padding: 10px;
 	border: none;
+	color: white;
 }
 
 .hide {
@@ -58,35 +59,38 @@ button {
 .logo_div {
 	width: 100%;
 	text-align: center;
-	border: black 1px solid;
 }
 
 .logo {
 	width: 200px;
-	height: 200px;
+	height: 150px;
 }
 
-.loginBtn {
-	width: 150px;
-	height: 20px;
-	background-color: #395faa;
-	left: 1200px;
-	top: 10px;
-	position: absolute;
-	border-radius: 5px;
-	border: black 1px solid;
-}
+.contactBtn,
 .homeBtn {
-	width: 150px;
-	height: 20px;
-	background-color: #395faa;
-	left: 900px;
-	top: 10px;
-	position: absolute;
-	border-radius: 5px;
-	border: black 1px solid;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
 }
 
 li {
 	display: inline-block;
+}
+
+.nav {
+	width: 95%;
+	height: 0px;
+	text-align: right;
+}
+
+a.loginBtn {
+	width: 100%;
+	bottom: 0px;
+}
+
+a.homeBtn {
+	width: 100%;
+	bottom: 0px;
 }
