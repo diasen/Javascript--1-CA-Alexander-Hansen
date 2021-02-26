@@ -1,5 +1,5 @@
-document.querySelector('.loading').innerHTML = ` <img
-src="https://wpamelia.com/wp-content/uploads/2018/11/ezgif-2-6d0b072c3d3f.gif"
+document.querySelector('.loading').innerHTML = ` <img class="loadinggif"
+src="http://guess-that-pokemon.herokuapp.com/assets/images/loading.gif"
 />`;
 
 const queryString = document.location.search;

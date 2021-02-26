@@ -1,6 +1,6 @@
 body {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background-color: white;
+	background-color: #f3e9e0;
 	margin: 0;
 }
 
@@ -13,11 +13,12 @@ main {
 
 .card {
 	width: 300px;
-	height: 500px;
+	height: 350px;
 	border: solid 2px black;
 	margin: 10px;
 	position: relative;
 	border-radius: 5px;
+	background-color: white;
 }
 
 .card img {
@@ -25,14 +26,12 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-	width: 80%;
-	height: 50%;
+	height: 40%;
 }
 
 .card__body {
 	padding: 10px;
 	height: 140px;
-	background-color: white;
 }
 
 h1 {
@@ -94,8 +93,14 @@ p {
 }
 
 .loading {
-	margin: 200px auto;
-	width: 800px;
+	margin: 100px auto;
+	width: 100%;
+	text-align: center;
+}
+
+.loadinggif {
+	width: 300px;
+	height: 300px;
 }
 
 .pokeballImg {
@@ -109,7 +114,7 @@ p {
 }
 
 .logo {
-	width: 200px;
+	width: 300px;
 	height: 150px;
 }
 
@@ -130,14 +135,4 @@ li {
 	width: 95%;
 	height: 0px;
 	text-align: right;
-}
-
-a.loginBtn {
-	width: 100%;
-	bottom: 0px;
-}
-
-a.homeBtn {
-	width: 100%;
-	bottom: 0px;
 }

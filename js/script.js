@@ -1,4 +1,4 @@
-document.querySelector('.loading').innerHTML = ` <img
+document.querySelector('.loading').innerHTML = ` <img class="loadinggif"
 src="http://guess-that-pokemon.herokuapp.com/assets/images/loading.gif"
 />`;
 
