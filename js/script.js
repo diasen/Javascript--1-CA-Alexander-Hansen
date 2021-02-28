@@ -21,7 +21,10 @@ async function getPokemons() {
         `;
 		});
 	} catch (error) {
-		document.querySelector('.alert') += showAlertTouser(error, 'danger');
+		document.querySelector('.alert').innerHTML += showAlertTouser(
+			'An error occured',
+			'danger'
+		);
 	} finally {
 		document.querySelector('.loading').classList.add('hide');
 	}

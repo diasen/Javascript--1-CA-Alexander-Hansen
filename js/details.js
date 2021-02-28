@@ -31,7 +31,7 @@ async function getPokemon() {
 		).innerHTML = `<img class="pokemon__img" src="${jsonResults.data.images.small}"/>`;
 	} catch (error) {
 		document.querySelector('.alert').innerHTML += showAlertTouser(
-			error,
+			'An error occured',
 			'danger'
 		);
 	} finally {
